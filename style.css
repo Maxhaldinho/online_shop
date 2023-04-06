@@ -1,5 +1,20 @@
+* {
+    margin: 0;
+}
+
 p {
     font-size: larger;
     font-weight: bold;
     color: red;
 }
+
+.gallery {
+    width: 100vw;
+    height: 50vh;
+    /*max-height: 500px; /*damit nur der obere Teil der Seite bedeckt ist*/ 
+    background-image: url(images/books-g5a75157a2_1920.jpg);
+    background-size: 100vw 50vh;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
